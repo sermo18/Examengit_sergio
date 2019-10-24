@@ -4,13 +4,12 @@ public class Las15cerillas {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		
+		while (sc.hasNext()){
 
 		int Cerillasquequedan = sc.nextInt();
 		int Cerillasquequitamos = sc.nextInt();
-		int cuantasquitar = 0;
-		if (Cerillasquequedan >= 1 && Cerillasquequedan <= 10000 && Cerillasquequitamos >= 1
-				&& Cerillasquequitamos <= 10) {
-
+		
 			if (Cerillasquequedan >= Cerillasquequitamos) {
 
 				if (Cerillasquequedan - Cerillasquequitamos == 1) {
